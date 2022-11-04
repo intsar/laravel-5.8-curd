@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'EmployeeController@index');
+Route::get('/add/{id?}', 'EmployeeController@create');
+Route::get('/delete/{id}', 'EmployeeController@delete');
+Route::post('/store', 'EmployeeController@store');
