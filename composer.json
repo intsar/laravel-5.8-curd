@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "intsar/laravel-5.8-curd",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Laravel Curd Operations using version 5.8",
     "keywords": [
         "framework",
         "laravel"
